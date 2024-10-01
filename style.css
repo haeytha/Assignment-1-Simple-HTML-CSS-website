@@ -44,7 +44,7 @@ html {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    color: white;
+    color: var(--Black-6);
 }
 
 .imagContainer {
@@ -78,8 +78,8 @@ ul.unlistedcontainer {
 
 .footerContainer {
     display: flex;
-    background-color: black;
-    color: aliceblue;
+    background-color:  var(--Black-6);
+    color: var(--White-6);
     justify-content: center;
     padding: 2rem;
 }
