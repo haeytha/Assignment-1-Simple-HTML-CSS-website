@@ -66,8 +66,8 @@ h1 {
 }
 
 .quotationList li:hover {
-    transform: translateY(-10px); /* Lift effect */
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+    transform: translateY(-10px); 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
 }
 
 blockquote {

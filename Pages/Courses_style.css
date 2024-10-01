@@ -32,30 +32,6 @@ html {
     flex-direction: column;
     min-height: 100vh;
 }
-/* 
-.headerContainer, .footerContainer {
-    display: flex;
-    justify-content: space-between;
-    padding: 3em;
-    width: 100%;
-    background-color: var(--Tropical-Fruit-Punch-2);
-    color: var(--Tropical-Fruit-Punch-4);
-}
-
-.leftSideContainer, .rightSideContainer {
-    padding: 0.5rem;
-    display: flex;
-    align-items: center;
-}
-
-.rightSideContainer ul {
-    list-style: none;
-    display: flex;
-}
-
-.rightSideContainer ul li {
-    margin-left: 1rem;
-} */
 
 .mainContainer {
     display: flex;
