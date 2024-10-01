@@ -33,32 +33,6 @@ html {
     height: 100vh;
 }
 
-header {
-    background-color: var(--Tropical-Fruit-Punch-1);
-    color: white;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header p {
-    font-size: 1.5rem;
-}
-
-.rightSideContainer ul {
-    display: flex;
-    gap: 1.5rem;
-    list-style: none;
-}
-
-.rightSideContainer ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
 .rightSideContainer ul li a:hover {
     color: var(--Tropical-Fruit-Punch-4);
 }
