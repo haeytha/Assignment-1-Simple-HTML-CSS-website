@@ -1,0 +1,103 @@
+:root {
+    --Tropical-Fruit-Punch-1: rgba(19, 96, 82, 1);
+    --Tropical-Fruit-Punch-2: rgba(67, 127, 62, 1);
+    --Tropical-Fruit-Punch-3: rgba(179, 206, 101, 1);
+    --Tropical-Fruit-Punch-4: rgba(255, 235, 92, 1);
+    --Tropical-Fruit-Punch-5: rgba(255, 90, 50, 1);
+    --White-6: rgba(255, 255, 255, 255);
+    --numberZero: 0;
+}
+
+@font-face {
+    font-family: 'Itim';
+    src: url('./assets/fonts/Itim-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: var(--numberZero);
+    margin: var(--numberZero);
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--Tropical-Fruit-Punch-3);
+    font-family: 'Itim', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 2rem;
+    background-color: var(--Tropical-Fruit-Punch-1);
+    color: var(--White-6);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: var(--Tropical-Fruit-Punch-4);
+}
+.title{
+    padding: 5rem;
+}
+.quotationList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.quotationList li {
+    background-color: var(--Tropical-Fruit-Punch-2);
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quotationList li:hover {
+    transform: translateY(-10px); /* Lift effect */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 0;
+    color: var(--White-6);
+}
+
+blockquote span {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-align: right;
+    color: var(--Tropical-Fruit-Punch-4);
+}
+
+.footerContainer {
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    justify-content: center;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    .mainContainer {
+        padding: 1rem;
+    }
+    blockquote {
+        font-size: 1rem;
+    }
+}
