@@ -2,7 +2,7 @@
     --Tropical-Fruit-Punch-1: rgba(19, 96, 82, 1);
     --Tropical-Fruit-Punch-2: rgba(67, 127, 62, 1);
     --Tropical-Fruit-Punch-3: rgba(179, 206, 101, 1);
-    --Tropical-Fruit-Punch-4: rgba(255, 235, 92, 1);
+    --Tropical-Fruit-Punch-4: rgb(214, 195, 53);
     --Tropical-Fruit-Punch-5: rgba(255, 90, 50, 1);
     --Black-6: rgba(0, 0, 0, 1);
     --White-6: rgba(255, 255, 255, 1);
@@ -64,7 +64,7 @@ img {
 h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: var(--White-6);
+    color: var(--Black-6);
 }
 
 p, ol, ul {
