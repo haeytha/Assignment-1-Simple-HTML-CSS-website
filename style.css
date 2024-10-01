@@ -40,7 +40,7 @@ html {
 .mainContainer {
     flex-grow: 1;
     padding: 2rem;
-    background-color: var(--Tropical-Fruit-Punch-2);
+    background-color: var(--Tropical-Fruit-Punch-4);
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
